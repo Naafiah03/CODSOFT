@@ -1,0 +1,186 @@
+portfolio.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>NAAFIAH YUSRA A</h1>
+    <p>Pre Final Year Student | Student Entrepreneur</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+        <h1>About Me</h1><br>
+      <p class="content">Hello Everyone, I'm Naafiah Yusra, from Kanchipuram. I'm currently in pursuit of a Bachelor of Engineering at Sri Venkateswara College of Engineering.<br>My adeptness in speaking multiple languages, such as Tamil, English, and Hindi, endows me with a broad range of communication capabilities. Furthermore,<br>I have developed a robust knowledge base in various programming languages, including C, Python, C++, and Java. At present, my primary objective is to<br>broaden my repertoire of abilities to include front-end development. In this pursuit, I am diligently studying web design and interactive user interfaces.<br>Nonetheless, I have consistently possessed a natural inclination towards leadership positions ever since my early school years. I have enjoyed providing <br>guidance to both my peers and teams with fervour and foresight. This experience bolstered my self-assurance to wholeheartedly assume the duties and obligations <br>of a team leader. Alongside my scholarly endeavours, I cultivate an extensive array of personal interests. I am a voracious reader who engages<br> with a wide range of literary genres and provides insightful evaluations that mirror my astute analytical stance.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul style="list-style-type:disc;">
+        <li>C++</li>
+        <li>C</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <!-- Add more skills -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <br>
+      <div class="project">
+        <h3>Calculator</h3>
+        <p>An operational iteration of a calculator has been developed utilizing JavaScript, HTML, and CSS. The software boasts an intuitive user interface and effortlessly executes a wide range of mathematical operations.</p>
+      </div>
+      <div class="project">
+        <h3>Landing Page</h3>
+        <p>An appealing landing page has been developed for an e-commerce website, with the potential for further expansion into a fully functional website.</p>
+      </div>
+      <div class="project">
+        <h3>Book Chapters</h3>
+        <p>Working on Book chapters titled "Digital Forestry" and "Precision Agriculture (Scorpus Indexed)" which are in the final phase.</p>
+      </div>
+      <!-- Add more project items -->
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <p><a href="resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a></p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: naafiahyusra@gmail.com</p>
+      <p>Phone: 9361887936</p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Naafiah Yusra. All rights reserved.</p>
+    <!-- Add additional links or information if needed -->
+  </footer>
+
+</body>
+</html>
+
+
+styles.css
+
+/* Basic styles for the portfolio */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .content {
+    margin: 0 70px;
+    text-align: justify;
+  }
+  
+  /* About Section styles */
+  #about {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+  }
+  
+  #about .container {
+    text-align: left;
+    margin: 0 70px;
+  }
+  
+  /* Skills Section styles */
+  #skills {
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  #skills .container {
+    text-align: left;
+    margin: 0 70px;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Projects Section styles */
+  #projects {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+  }
+  
+  #projects .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .project {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Resume Section styles */
+  #resume {
+    padding: 70px 0;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  /* Contact Section styles */
+  #contact {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
