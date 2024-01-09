@@ -1,0 +1,229 @@
+landing_page.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Landing Page</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<center><h1 style="font: size 300px;">MAATRAAN</h1></center>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home">
+    <div class="hero-content">
+        <center>
+      <h1>Welcome to our E-commerce Store</h1>
+      <p>Discover amazing products at great prices!</p>
+      <a href="#products" class="btn">Explore Now</a>
+    </center>
+    </div>
+  </section>
+<br>
+  <!-- Products Section -->
+  <section id="products" style="background-image: url('clothes.jpg');">
+    <div class="product-grid">
+      <div class="product">
+        <img src="salwar.jpg" alt="Salwar">
+        <h3>Salwar suit</h3>
+        <p>Muslin sequence Embroidery work salwar suit for women.</p>
+        <a href="#" class="btn">View Details</a>
+      </div>
+      <div class="product">
+        <img src="blazers.jpg" alt="Blazer">
+        <h3>Blazers|Men</h3>
+        <p>Maroon solid Slim-fit Single brested Formal Blazer for Men.</p>
+        <a href="#" class="btn">View Details</a>
+      </div>
+      <!-- Add more product items -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>MAATRAAN has been bringing exceptional style to shoppers far and wide since our founding, and we don’t intend on stopping anytime soon. Our vision is fast-paced, forward-thinking and fashion-centered at its core, and all of our products reflect these ideals. We invite you to browse through our site to find just what you have been looking for.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form action="#">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 MAATRAAN. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+stylesheet.css
+
+/* Basic styles for the e-commerce landing page */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Hero Section styles */
+  #hero {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Products Section styles */
+  #products {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* About Section styles */
+  #about {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ccc;
+  }
+  
+  .about-content {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Contact Section styles */
+  #contact {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .contact-form button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
